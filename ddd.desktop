@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=DDD
+Comment=Data Display Debugger
+GenericName=Debugger
+Exec=ddd
+Icon=ddd
+Terminal=false
+Type=Application
+Categories=Development;Debugger;
