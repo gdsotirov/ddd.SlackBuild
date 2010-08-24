@@ -1,0 +1,11 @@
+diff -N -r -U 3 ddd-3.3.12-orig/ddd/strclass.C ddd-3.3.12/ddd/strclass.C
+--- ddd-3.3.12-orig/ddd/strclass.C	2009-02-11 19:25:06.000000000 +0200
++++ ddd-3.3.12/ddd/strclass.C	2010-08-24 09:25:05.000000000 +0300
+@@ -38,6 +38,7 @@
+ #include <ctype.h>
+ #include <limits.h>
+ #include <new>
++#include <cstdio>
+ #include <stdlib.h>
+ 
+ void string::error(const char* msg) const
